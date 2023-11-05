@@ -31,36 +31,34 @@
     <a href="">Vraag een offerte aan&RightArrow;</a>
 
     <h2> Ons atelier </h2>
-    <address>
         <p>Pantserschipstraat 155</p>
         <p>9000 Gent</p>
         <p><a href="tel:+32/494.40.47.10">+32/494.40.47.10</a></p>
         <p><a href="mailto:info@timmerwerkt.be">info@timmerwerkt.be</a></p>
-    </address>
 
     <h2>Contact formulier</h2>
 
     <form>
 
         <p><label for="bio">Je vraag*</label></p>
-        <textarea id="bio" cols="40" rows="5" required></textarea>
+        <textarea id="bio" cols="40" rows="5" autofocus ></textarea>
 
         <p><label for="foto"> Verduidelijk eventueel met enkele foto's </label></p>
         <input type="file" id="foto">
 
         <p><label for="adres">Adres of regio *</label></p>
-        <input type="text" id="adres" placeholder="bv. Gent">
+        <input type="text" id="adres" placeholder="bv. Gent" required>
 
         <p>Jouw gegevens, zodat we je kunnen contacteren:</p>
 
         <p><label for="fname">Naam*</label></p>
-        <input type="text" id="fname">
+        <input type="text" id="fname" required>
 
         <p><label for="email">Email*</label></p>
-        <input type="email" id="email">
+        <input type="email" id="email" required>
 
         <p><label for="mobile">GSM/telefoon*</label></p>
-        <input type="tel" id="mobile">
+        <input type="tel" id="mobile" required>
 
         <p>
             <label><input type="checkbox" value="a"> ja, schrijf mij in voor de nieuwsbrief</label>
@@ -101,10 +99,10 @@
     </address>
 
     <ul>
-        <li><span class="fa-brands fa-facebook-f"></span></li>
-        <li><span class="fa-brands fa-youtube"></span></li>
-        <li><span class="fa-brands fa-instagram"></span></li>
-        <li><span class="fa-brands fa-pinterest"></span></li>
+        <li><a href="https://www.facebook.com/?locale=nl_NL" class="fa-brands fa-facebook-f"></a></li>
+        <li><a href="https://www.youtube.com/" class="fa-brands fa-youtube"></a></li>
+        <li><a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a></li>
+        <li><a href="https://nl.pinterest.com/" class="fa-brands fa-pinterest"></a></li>
     </ul>
 
 

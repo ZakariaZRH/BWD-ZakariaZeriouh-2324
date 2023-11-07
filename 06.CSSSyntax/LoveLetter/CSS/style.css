@@ -1,0 +1,68 @@
+/* deel 1: start CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html {
+    background-color: #fff;
+    background-image: url(img/tile.png);
+ }
+ 
+ body {
+    border: 10px solid rgb(255, 255, 255);
+    height: 600px;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 40px 100px;
+   background-image: url(img/bg.png);
+   background-size: 100%;
+ }
+ 
+ h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+   font-size: 40px;
+   font-weight: 30;
+ }
+ 
+ main {
+   padding-top: 25px;
+   font-family: 'Indie Flower', cursive;
+   text-align: left;
+   line-height: 1.25;
+   width: 109%; 
+}
+
+ 
+ mark {
+    background-color: transparent;
+ }
+ 
+ footer {
+    margin-top: 25px;
+    text-align: right;
+    font-family: 'Indie Flower', cursive;
+ }
+ 
+
+ p > mark {
+   text-shadow: 0 0 15px purple;
+   text-transform: uppercase;
+ }
+
+ h1 > span {
+   color: darkred;
+   font-size: 30px
+ }
+
+p {
+   color: blue;
+   font-size: 28px;
+}
+
+.date {
+   font-size: 20px;
+}

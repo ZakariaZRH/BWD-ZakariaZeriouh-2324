@@ -30,11 +30,16 @@ h1{
 }
 
 #menu-social-vert{
-    border: 2px solid black;
+    border: 1px solid black;
     list-style: none;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     width: 50px;
+}
+
+#menu-social-vert span:hover,
+#menu-social-vert span:active{
+    color: green;
 }
 
 #menu-social-vert li {
@@ -44,11 +49,11 @@ h1{
 #menu-social-vert a {
     text-decoration: none;
     display: block;
-    color: lightgreen;
+    color: rgb(74, 144, 74);
 }
 
 #menu-social-vert span {
-    color: lightgreen;
+    color: rgb(73, 150, 73);
     display: inline-block;
     font-size: 30px;
     height: 40px;
@@ -58,5 +63,9 @@ h1{
 
 #menu-social-vert span:hover,
 #menu-social-vert span:active {
-    color: lightgreen;
+    color: rgb(66, 129, 66);
+}
+
+#menu-social-vert span .active{
+    text-decoration: underline;
 }

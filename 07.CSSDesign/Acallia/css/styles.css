@@ -1,0 +1,107 @@
+.more {
+   text-align: right;
+   margin: 20px 0; 
+   padding: 10px;
+   border: 1px solid #B52025; 
+   display: inline-flex;
+    border-radius: 20%;
+}
+
+.more a {
+   text-align: right;
+   text-decoration: none;
+    color: #B52025;
+}
+
+.more a:hover {
+   text-align: right;
+    text-decoration: underline;
+}
+
+.more::after {
+   content: " »";
+   color: #B52025;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-around; 
+}
+
+nav a {
+   text-decoration: none;
+   color: black; 
+   padding: 10px;
+}
+nav a:hover {
+background-color: #B52025;
+}
+
+main h3 {
+   color: #B52025;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+main h3::after{
+   content: "→";
+}
+
+aside input,
+   aside button {
+      background-color: #B52025;
+      
+}
+body {
+   margin: 0 auto;
+   max-width: 960px;
+   font-family: 'Roboto', sans-serif;
+}
+
+aside input {
+   background-color: #B52025;
+}
+
+aside button {
+   background-color: #B52025;
+}
+
+
+footer{
+   text-align: center;
+   background: (grey);
+}
+
+p {
+   text-align: justify;
+}
+
+#banner {
+   background-image: url(../img/banner.jpg);
+}
+
+.more {
+   float: right;
+   display: block;
+   justify-content: right;
+   margin-left: 200px;
+   margin-bottom: 20px;
+   padding: 10px 10px;
+   border: 1px solid #B52025;
+   border-radius: 20%;
+}
+
+.more a {
+   text-decoration: none;
+   color: #B52025;
+}
+
+.more a:hover {
+   text-decoration: underline;
+}
+
+.more::after {
+   content: " »";
+   color: #B52025;
+}

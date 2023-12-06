@@ -1,3 +1,7 @@
+header{
+   padding-bottom: 30px;
+}
+
 #social li {
     padding: 15px 70px;
     margin-bottom: 10px;
@@ -18,11 +22,15 @@
 
 main {
    border-bottom: 1px solid grey;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 footer li {
    list-style: none;
    border-bottom: 1px solid grey;
+   padding-top: 30px;
+   padding-left: 10px;
 }
 
 .logo_visual img {

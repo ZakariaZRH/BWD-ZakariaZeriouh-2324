@@ -106,6 +106,7 @@ a.btn-cta:hover {
 
 header {
    background: #A6D3C8;
+   padding: 15px 0;
 } 
 
 
@@ -124,6 +125,11 @@ header p {
 
 header .wrapper {
    padding: 30px 0;
+   max-width: 1200px; 
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
 }  
 
 /* logo */
@@ -175,13 +181,16 @@ main .wrapper {
    display: flex;
    margin-right: 200px;
    margin-left: 200px;
-   
+   max-width: 1200px; /* Set a max-width for the content */
+   margin: 0 auto;
 }
 
 main p {
    color: #666;
    line-height: 20px;
 }
+
+
 
 /* ===========================================
    Footer
@@ -197,6 +206,8 @@ footer .wrapper {
    justify-content: space-between;
    margin-left: 200px;
    margin-right: 200px;
+   max-width: 1200px;
+   margin: 0 auto;
 }
 
 footer .wrapper > div a {
@@ -214,4 +225,10 @@ footer .wrapper > div a {
 
 footer div{
    padding-top: 10px;
+}
+
+form p {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
 }

@@ -1,0 +1,308 @@
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0; 
+}
+
+.wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   width: 900px;
+   
+}
+
+h2 {
+   color: #000000;
+   font-size: 24px;
+   font-weight: normal;
+   font-family: 'Source Serif 4', serif;
+}
+
+h3 {
+   font-size: 18px;
+   font-weight: normal;
+   margin-top: 30px;
+   text-align: center;
+   font-family: 'Source Serif 4', serif;
+}
+
+p {
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-align: left;
+}
+
+a {
+   color: #000000;
+   display: block;
+   justify-content: center;
+   text-align: center;
+}
+
+
+.btn-cta {
+   background-color: #0cf5ce00;
+   border: 2px solid rgb(255, 255, 255);
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 30;
+   font-size: 14px;
+   padding: 8px 16px;   
+   text-transform: uppercase;
+   transition: background 0.5s;
+   white-space: nowrap;
+   margin-top: 30px;
+}
+
+a.btn-cta {
+   text-decoration: none;
+   
+}
+
+a.btn-cta:hover {
+   color: #fff;
+   
+}
+
+.btn-cta:hover {
+   background-color: rgba(255, 0, 0, 0);
+}
+
+
+header {
+   background: #ffffff;
+   
+} 
+
+
+#mainmenu{
+  display: block;
+  list-style: none;
+  justify-content: flex-end;
+  column-gap: 25px;
+  justify-content: space-between;
+  align-items: end;
+}
+
+header p {
+   margin: 10px;
+   margin-left: 30px;
+   
+} 
+
+header .wrapper {
+   padding: 30px 0;
+   
+}  
+
+.logo{
+   display: block;
+   justify-content: space-between;
+   align-items: end;
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+}
+
+
+#mainmenu a {
+   color: #000;
+   font-size: 17px;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-between;
+   text-decoration: none;
+   font-family: 'Source Serif 4', serif;
+}
+
+#mainmenu a:hover,
+#mainmenu .active a {
+   color: #ff0000;
+   text-decoration: none;
+}
+
+
+main .wrapper {
+   background-color: #fff;
+   padding-bottom: 50px;
+   margin-right: 200px;
+   margin-left: 200px;
+   display: block;
+   justify-content: space-between;
+}
+
+
+main p {
+   color: #000000;
+   line-height: 20px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+footer .wrapper {
+   background-color: #fff;
+   border-top: 2px solid #ebeceb;
+   color: #666;
+   font-size: 11px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+
+#banner {
+    background-image: url(../img/seoul_skyline.jpg);
+    background-size:100%;
+    background-position: center;
+ }
+ 
+ #banner .wrapper {
+    min-height: 300px;
+    text-align: left;
+    padding-top: 60px;
+    margin-left: 300px;
+ }
+    
+ .banner_box .btn-cta {
+    font-size: 100%;
+ }
+ 
+ .banner_box .btn-cta:hover {
+    color: white;
+ }
+    
+ .banner_box p {
+    color: white;
+    font-weight: bold;
+ }
+
+ .banner_box h2 {
+    color: white;
+ }
+ 
+main h2{
+    line-height: 35px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    padding-top: 20px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+.media{
+   display: flex;
+   padding: 20px;
+   list-style: none;
+   column-gap: 10px;
+   background-color: rgb(190, 189, 189);
+}
+
+.search {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: -35px;
+   margin-right: 60px;
+}
+
+.foto{
+   width: 100%;
+    height: 300px;
+    display: flex; 
+    margin: 0px; 
+   
+}
+
+.date{
+   display: flex;
+   column-gap: 60px;
+   margin-left: 50px;
+   list-style-type: square;
+}
+
+.btn-text{
+   border: 2px solid rgb(0, 0, 0);
+   color: #000000;
+   cursor: pointer;
+   font-weight: 30;
+   font-size: 14px;
+   padding: 8px 16px;   
+   text-transform: uppercase;
+   display: flex;
+   float: right;
+   margin-right: 20px;
+   text-decoration: none;
+}
+
+.night{
+   width: 70%;
+   float: inline-end;
+}
+
+.leftpost{
+   background-color: rgba(202, 193, 193, 0.447);
+   padding-bottom: 45px;
+}
+
+.left{
+   max-width: 50%;
+}
+
+.right{
+   float: left;
+   width: 35%;
+   display: block;
+}
+
+.straat{
+   float: left;
+   width: 35%;
+}
+
+.cherry{
+   float: left;
+   width: 35%;
+}
+
+.living{
+   float: left;
+   width: 35%;
+}
+
+@media (min-width: 1000px){
+   #mainmenu{
+      display: flex;
+      list-style: none;
+      justify-content: flex-end;
+      column-gap: 25px;
+      justify-content: space-between;
+      align-items: end;
+    }
+    main .wrapper {
+      background-color: #fff;
+      padding-bottom: 50px;
+      margin-right: 200px;
+      margin-left: 200px;
+      display: flex;
+      justify-content: space-between;
+   }
+   .right{
+      float: right;
+      width: 35%;
+      display: block;
+   }
+   a {
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+   }
+   .logo{
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      font-family: 'Dancing Script', cursive;
+      font-size: 40px;
+   }
+} 

@@ -1,0 +1,14 @@
+main .wrapper {
+   background-color: #fff;
+   padding-bottom: 50px;
+   display: flex;
+   margin-right: 200px;
+   margin-left: 200px;
+   max-width: 1200px; /* Set a max-width for the content */
+   margin: 0 auto;
+}
+
+main p {
+   color: #666;
+   line-height: 20px;
+}

@@ -1,0 +1,36 @@
+footer .wrapper {
+   background-color: #fff;
+   border-top: 2px solid #ebeceb;
+   color: #666;
+   font-size: 11px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 200px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+footer .wrapper > div a {
+   text-decoration: underline;
+   color: #666;
+   font-size: 11px;
+   
+}
+
+#social_icons{
+   list-style: none;
+   display: flex;
+   column-gap: 30px;
+}
+
+footer div{
+   padding-top: 10px;
+}
+
+form p {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+}

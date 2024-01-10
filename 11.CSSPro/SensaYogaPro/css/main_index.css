@@ -1,0 +1,56 @@
+.mainleft {
+   padding: 30px 15px 0 15px;
+   float: left;
+   margin: 10px;
+}
+   
+#gallery {
+   margin: 35px 0;
+   display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
+/* right */
+   
+.mainright {
+   padding: 30px 15px 0 15px;
+   float: right;
+   margin: 10px;
+}
+   
+.mainright h3 a {
+   color: #333;
+   border-bottom: 1px solid #cccccc;
+}
+   
+.mainright h3 a:hover {
+   text-decoration: none;
+   color: #be0a35;
+   
+}
+
+   
+.workshop .date {
+   border: 1px solid #ccc;
+   float: left;
+   margin-right: 5px;
+}
+
+.workshop .day {
+   font-size: 60px;
+   line-height: 1em;
+   display: flex;
+   justify-content: space-between;
+}
+   
+.readmore {
+   display: block;
+   margin-top: 10px;
+}
+   
+.thumb {
+   justify-content: space-between;
+   float: right;
+   width: 25%;
+}   

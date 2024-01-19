@@ -1,0 +1,95 @@
+/**
+ * Oplossing
+ *
+ * @author jouw naam hier <jouw.naam@student.odisee.be>
+ *
+ */
+
+/* 1. wrappers */
+div.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+
+#logo{
+    display: flex;
+    justify-content: end;
+}
+
+/* 2. header */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+
+/* 3. menu */
+#banner h2 {
+    margin-left: 0%;
+}
+
+div.left{
+    margin-left: 250px;
+    padding-right: 55%;
+}
+
+#content{
+    margin-right: 55%;
+}
+/* 4. banner kolommen */
+
+#banner img {
+    width: 300px;
+    display: block;
+    float: right;
+}
+
+/* 5. drie content kolommen */
+
+
+/* 6. titels */
+h2{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+/* 7. more links */
+.more a {
+    background-color: #95AD19;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 8px 15px 10px;
+    margin-left: 55%;
+}
+
+
+/* 8. doormat kolommen */
+
+
+
+/* 9. doormat content */
+#doormat .visual {
+    display: block;
+    float: left;
+}
+
+#doormat {
+    display: block;
+    float: right;
+}
+
+/* 10. footer */
+footer p{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+

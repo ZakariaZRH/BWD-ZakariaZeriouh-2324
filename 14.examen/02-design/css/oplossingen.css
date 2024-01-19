@@ -1,0 +1,124 @@
+/**
+ * Oplossingen
+ *
+ */
+
+ nav ul:hover,
+ nav ul .active a {
+    color: #ED564B;
+    text-decoration: none;
+ }
+
+ #banner{
+    background-image: url(../img/laptop.jpg);
+    background-size: cover;
+    border-color: #ED564B;
+ }
+
+ h1{
+    background-color: #ED564B;
+    color: white;
+ }
+
+ #form_search button[type=submit] {
+    background-color: #ED564B;
+    color: white;
+}
+
+.readmore {
+    justify-content: center;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10%;
+    background-color: #ED564B;
+    color: white;
+    border: 2px solid #ED564B;
+}
+
+.readmore:hover {
+    background-color: white;
+    color: #ED564B;
+    }
+
+
+.readmore::after {
+    content: " »";
+    color: white;
+}
+
+h3{
+    font-size: 22px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    color: #ED564B;
+    text-decoration-line: underline;
+    text-decoration-style:dotted;
+}
+
+figcaption {
+    background-color: rgb(47, 46, 46);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p span{
+    color: #ED564B;
+}
+
+.icon {
+    color: white;
+}
+
+.banner_text {
+    background-color: #ccccccc3;
+    margin-right: 750px;
+    text-align: left;
+}
+
+#doormat h3 {
+    text-transform: uppercase;
+    font-weight:lighter;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #ED564B;
+    font-size: 22px;
+}
+
+img.mugshot{
+    border-radius: 50%;
+    display: block;
+    float: left;
+}
+
+blockquote {
+    text-align: left;
+    font-style: italic;
+}
+
+#doormat p {
+    text-align: left;
+}
+
+html {
+    background-blend-mode: color;
+}
+
+#button:hover,
+ #button .active a {
+    color: #ED564B;
+ }
+
+ a.button.readmore{
+    text-decoration: none;
+ }
+
+ .doormat__post img {
+    border-style: double;
+}
